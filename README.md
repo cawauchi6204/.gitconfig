@@ -1,5 +1,5 @@
 # .gitconfig
-
+```
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -35,3 +35,4 @@
 	logn = log --name-status --oneline
 	firstcom = commit --allow-empty -m \"Initial commit\"
 	df = diff
+```
